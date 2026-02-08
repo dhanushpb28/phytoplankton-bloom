@@ -92,9 +92,12 @@ if run and selected_date:
 
         ds = fetch_and_load(
             date=str(selected_date),
-            lat_range=(lat_min, lat_max),
-            lon_range=(lon_min, lon_max)
+            lat_min=lat_min,
+            lat_max=lat_max,
+            lon_min=lon_min,
+            lon_max=lon_max
         )
+
 
     # =====================================================
     # BLOOM DETECTION
