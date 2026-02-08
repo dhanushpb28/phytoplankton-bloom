@@ -4,7 +4,7 @@ import tempfile
 import os
 import numpy as np
 
-def fetch_bgc_data(
+def fetch_and_load(
     date,
     lat_min, lat_max,
     lon_min, lon_max
