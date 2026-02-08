@@ -1,0 +1,11 @@
+altair
+pandas
+streamlit
+copernicusmarine
+xarray
+numpy
+matplotlib
+cartopy
+netcdf4
+h5netcdf
+zarr
